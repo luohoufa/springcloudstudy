@@ -1,0 +1,13 @@
+spring:
+  application:
+    # 设置应用名称
+    name: ms-eureka
+server:
+  # 设置服务端口号
+  port: 8761
+eureka:
+  client:
+    # 是否检索服务
+    fetch-registry: false
+    # 是否向服务注册中心注册自己
+    register-with-eureka: false
